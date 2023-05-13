@@ -1,5 +1,36 @@
-### Documentation is included in the Documentation folder ###
+### Documentação para executar o projeto ###
 
+Este é um projeto de desafio da empresa ROIT em parceria com a empresa Kenzie Academy Brasil, para aprender a ferramenta de automação UiPath Studio e desenvolver uma automação que navegue pelo site CNAE IBGE e extraia os dados de códigos e descrições de cada atividade CNAE e depois disso chame um script Python para tratar os dados e escrever em uma nova planilha do Excel.
+
+Para rodar esse projeto você precisará:
+Instalação do UiPath Studio;
+Instalação do Python 3.10
+Instalação das bibliotecas Python: pandas, openpyxl, unidecode e re, para instalar siga os passos:
+
+Clone ou faça o Fork deste projeto;
+Depois da instalação do Python, inicie as instalações das bibliotecas globalmente, abra o prompt de comando e digite:
+pip install pandas
+pip install unidecode
+pip install openpyxl
+pip install re
+Dentro do Uipath instale o pacote UiPath.Python.Activities
+
+Será necessário indicar o caminho da armazenamento do executável do Python na sua máquina, para isso:
+Na raiz do diretório do projeto terá a pasta "Data";
+Na pasta "Data" terá o arquivo Excel "Config;
+
+Abra o arquivo e edite o seguinte campo: PATH_PYTHON;
+No lugar de {NomeUsuárioWindows} substitua por seu nome de usuário do Windows.
+
+Abra o arquivo e edite o seguinte campo: LIBRARY_PATH_PYTHON;
+No lugar de {NomeUsuárioWindows} substitua por seu nome de usuário do Windows.
+
+Abra a automação no Uipath Studio e a execute.
+
+Forneça uma Seção do CNAE para a extração dos dados sendo as opções de A a U.
+O robô irá começar a navegar e extrair os dados, após a extração executará o script.py para transformar os textos das descrições para minúsculo, remover acentos e tudo que for diferente de número das colunas de códigos exceto da coluna Código Seção.
+
+Terminando a automação o Robô apresentará um box com a mensagem de sucesso e a automação irá ser concluída.
 
 ### REFrameWork Template ###
 **Robotic Enterprise Framework**
