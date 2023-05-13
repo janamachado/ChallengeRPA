@@ -9,21 +9,28 @@ Instalação das bibliotecas Python: pandas, openpyxl, unidecode e re, para inst
 
 Clone ou faça o Fork deste projeto;
 Depois da instalação do Python, inicie as instalações das bibliotecas globalmente, abra o prompt de comando e digite:
-pip install pandas
-pip install unidecode
-pip install openpyxl
-pip install re
-Dentro do Uipath instale o pacote UiPath.Python.Activities
+<br>
+````pip install pandas````
+
+````pip install unidecode````
+
+````pip install openpyxl````
+
+````pip install re````
+
+````Dentro do Uipath instale o pacote UiPath.Python.Activities````
 
 Será necessário indicar o caminho da armazenamento do executável do Python na sua máquina, para isso:
 Na raiz do diretório do projeto terá a pasta "Data";
 Na pasta "Data" terá o arquivo Excel "Config;
 
-Abra o arquivo e edite o seguinte campo: PATH_PYTHON;
-No lugar de {NomeUsuárioWindows} substitua por seu nome de usuário do Windows.
+Abra o arquivo e edite o seguinte campo: 
+````PATH_PYTHON````
+Substitua {NomeUsuárioWindows} por seu nome de usuário do Windows.
 
-Abra o arquivo e edite o seguinte campo: LIBRARY_PATH_PYTHON;
-No lugar de {NomeUsuárioWindows} substitua por seu nome de usuário do Windows.
+Abra o arquivo e edite o seguinte campo:
+````LIBRARY_PATH_PYTHON````
+Substitua {NomeUsuárioWindows} por seu nome de usuário do Windows.
 
 Abra a automação no Uipath Studio e a execute.
 
