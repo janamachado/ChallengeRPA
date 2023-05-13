@@ -1,6 +1,6 @@
 ### Documentação para executar o projeto ###
 
-Este é um projeto de desafio das empresas ROIT em parceria com a empresa Kenzie Academy Brasil, para aprender a ferramenta de automação UiPath Studio e desenvolver uma automação que navegue pelo site CNAE IBGE e extraia os dados de códigos e descrições de cada atividade CNAE e depois disso chame um script Python para tratar os dados e escrever em uma nova planilha do Excel.
+Este é um projeto de desafio das empresas ROIT em parceria com Kenzie Academy Brasil, para aprender a ferramenta de automação UiPath Studio e desenvolver uma automação que navegue pelo site CNAE IBGE e extraia os dados de códigos e descrições de cada atividade CNAE e depois disso chame um script Python para tratar os dados e escrever em uma nova planilha do Excel.
 
 Para rodar esse projeto você precisará:
 Instalação do UiPath Studio;
