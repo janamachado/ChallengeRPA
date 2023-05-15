@@ -70,23 +70,22 @@
       "Path": "Framework/GetTransactionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "strCodigoSubclasse&Sequence_1",
+        "dtCnaeExtractDataTable&Sequence_1",
         "strDescricaoDivisao&Sequence_1",
         "strDescricaoGrupo&Sequence_1",
         "strDescricaoClasse&Sequence_1",
-        "cod_Subclasse&Sequence_1",
         "strDescricaoSubclasse&Sequence_1",
         "arrSubclasse&Sequence_1",
         "arrGrupo&Sequence_1",
         "arrClasse&Sequence_1",
         "arrDivisao&Sequence_1",
-        "CnaeExtractDataTable&Sequence_1",
         "strCodigoClasse&Sequence_1",
         "strCodigoGrupo&Sequence_1",
         "strDescricaoSecao&Sequence_1",
         "strCodigoSecaoUser&Sequence_1",
         "strCodigoDivisao&Sequence_1",
         "dtPlanilhaCompleta&Sequence_1",
-        "strCodigoSubclasse&Sequence_35",
         "pyScript&Sequence_49"
       ],
       "ArgumentsSectionElementsOrder": [
@@ -216,6 +215,19 @@
         "out_TransactionID",
         "io_dt_TransactionData"
       ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tests/GetTransactionDataTestCase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_1",
+        "TransactionNumber&Sequence_1",
+        "TransactionItem&Sequence_1",
+        "VerificationOutput&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
