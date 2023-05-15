@@ -70,8 +70,23 @@
       "Path": "Framework/GetTransactionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "SecaoUserChoise&Sequence_11",
-        "CnaeExtractDataTable&Sequence_1"
+        "strCodigoSubclasse&Sequence_1",
+        "dtCnaeExtractDataTable&Sequence_1",
+        "strDescricaoDivisao&Sequence_1",
+        "strDescricaoGrupo&Sequence_1",
+        "strDescricaoClasse&Sequence_1",
+        "strDescricaoSubclasse&Sequence_1",
+        "arrSubclasse&Sequence_1",
+        "arrGrupo&Sequence_1",
+        "arrClasse&Sequence_1",
+        "arrDivisao&Sequence_1",
+        "strCodigoClasse&Sequence_1",
+        "strCodigoGrupo&Sequence_1",
+        "strDescricaoSecao&Sequence_1",
+        "strCodigoSecaoUser&Sequence_1",
+        "strCodigoDivisao&Sequence_1",
+        "dtPlanilhaCompleta&Sequence_1",
+        "pyScript&Sequence_49"
       ],
       "ArgumentsSectionElementsOrder": [
         "in_TransactionNumber",
@@ -93,6 +108,126 @@
         "in_dtCnaeItems",
         "in_Config"
       ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.9ac2311e0f3a.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CnaeExtractDataTable&Sequence_42",
+        "listDivisao&Sequence_42",
+        "listClasse&Sequence_42",
+        "strCodigoClasse&Sequence_42",
+        "listGrupo&Sequence_42",
+        "strCodigoGrupo&Sequence_42",
+        "strDescricaoSecao&Sequence_42",
+        "strCodigoSecaoUser&Sequence_42",
+        "strCodigoDivisao&Sequence_42",
+        "dtPlanilhaCompleta&Sequence_42",
+        "strFileNameInitial&Sequence_42",
+        "dtPlanilhaInteira&Sequence_42",
+        "strFileNameFinal&Sequence_42",
+        "PythonEngineSessionProperty&Sequence_42",
+        "pyScript&Sequence_41",
+        "pyObj&Sequence_41",
+        "resultPy&Sequence_41",
+        "confirmationSucess&Sequence_41"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.d61b3fafbebd.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CnaeExtractDataTable&Sequence_45",
+        "listDivisao&Sequence_45",
+        "listClasse&Sequence_45",
+        "strCodigoClasse&Sequence_45",
+        "listGrupo&Sequence_45",
+        "strCodigoGrupo&Sequence_45",
+        "strDescricaoSecao&Sequence_45",
+        "strCodigoSecaoUser&Sequence_45",
+        "strCodigoDivisao&Sequence_45",
+        "dtPlanilhaCompleta&Sequence_45",
+        "strFileNameInitial&Sequence_45",
+        "dtPlanilhaInteira&Sequence_45",
+        "strFileNameFinal&Sequence_45",
+        "pyScript&Sequence_41",
+        "pyObj&Sequence_41",
+        "resultPy&Sequence_41",
+        "confirmationSucess&Sequence_41"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.cab45f115c8a.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strDescricaoDivisao&Sequence_45",
+        "CnaeExtractDataTable&Sequence_45",
+        "listDivisao&Sequence_45",
+        "listClasse&Sequence_45",
+        "strCodigoClasse&Sequence_45",
+        "listGrupo&Sequence_45",
+        "strCodigoGrupo&Sequence_45",
+        "strDescricaoSecao&Sequence_45",
+        "strCodigoSecaoUser&Sequence_45",
+        "strCodigoDivisao&Sequence_45",
+        "dtPlanilhaCompleta&Sequence_45",
+        "strFileNameInitial&Sequence_45",
+        "dtPlanilhaInteira&Sequence_45",
+        "strFileNameFinal&Sequence_45",
+        "PythonEngineSessionProperty&Sequence_45",
+        "Divisao&Sequence_45",
+        "WSSessionData&Sequence_45",
+        "pyScript&Sequence_41",
+        "pyObj&Sequence_41",
+        "resultPy&Sequence_41",
+        "confirmationSucess&Sequence_41"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tests/GetTransactionDataTestCase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_1",
+        "TransactionNumber&Sequence_1",
+        "TransactionItem&Sequence_1",
+        "VerificationOutput&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
